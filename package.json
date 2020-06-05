@@ -1,0 +1,28 @@
+{
+  "name": "imchinese",
+  "version": "1.0.0",
+  "keywords": [
+    "chinese",
+    "browser",
+    "detection"
+  ],
+  "description": "Help you to detect if the client is in a Chinese browser.",
+  "author": "yingshaoxo <yingshaoxo@gmail.com>",
+  "homepage": "https://github.com/yingshaoxo/imchinese",
+  "repository": {
+    "url": "https://github.com/yingshaoxo/imchinese",
+    "type": "git"
+  },
+  "bugs": "https://github.com/yingshaoxo/imchinese/issues",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -fr dist/* && tsc",
+    "dev": "yarn build --watch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/useragent": "^2.1.1",
+    "useragent": "^2.3.0"
+  }
+}
