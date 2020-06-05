@@ -1,8 +1,6 @@
 # imchinese
 Help you to detect if the client is in a Chinese browser.
 
-**Contribution is welcomed!**
-
 ### Installation
 ```
 npm i imchinese
@@ -20,7 +18,7 @@ console.log(imchinese)
 ```
 It'll return `true` if it's in a chinese browser.
 
-### Check if it's mobile or desktop
+### Check if it's Mobile or Desktop
 ```
 import { isMobile, isTablet, isDesktop } from 'imchinese'
 
@@ -62,3 +60,6 @@ console.log(info)
     "language": "en-us"
 }
 ```
+
+### In The End
+**Contribution is welcomed!**
