@@ -30,7 +30,7 @@ It'll return `true` if it's in mobile.
 ```
 import { isWechat } from 'imchinese'
 
-console.log(isWechat)
+console.log(isWechat())
 ```
 It'll return `true` if it's in wechat.
 We also implemented `isBaidu, isQQ, isUC, isQuark, isSogou, isHuawei`.
