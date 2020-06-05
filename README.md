@@ -5,7 +5,7 @@ Help you to detect if the client is in a Chinese browser.
 
 ### Installation
 ```
-npm -i imchinese
+npm i imchinese
 
 or
 

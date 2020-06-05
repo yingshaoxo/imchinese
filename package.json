@@ -23,6 +23,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/useragent": "^2.1.1",
-    "useragent": "^2.3.0"
+    "useragent": "^2.3.0",
+    "yamlparser": "^0.0.2"
   }
 }
