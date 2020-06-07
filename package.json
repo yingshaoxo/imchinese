@@ -1,6 +1,6 @@
 {
   "name": "imchinese",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "keywords": [
     "chinese",
     "browser",
@@ -15,6 +15,9 @@
   },
   "bugs": "https://github.com/yingshaoxo/imchinese/issues",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rm -fr dist/* && tsc",
