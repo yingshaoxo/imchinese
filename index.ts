@@ -22,13 +22,10 @@ if (isWechat()) {
     imchinese = true
 } else if (isSogou()) {
     imchinese = true
-}
-/*
-else if (isHuawei()) {
+} else if (isHuawei()) {
     imchinese = true
 }
 // I also want to put 360 into this list, but 360 don't have any symbols that we can track...
-*/
 
 export {
     imchinese,
